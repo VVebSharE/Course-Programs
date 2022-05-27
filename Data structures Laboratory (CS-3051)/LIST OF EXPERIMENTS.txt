@@ -1,0 +1,24 @@
+LIST OF EXPERIMENTS
+1. Write a program to insert and delete an element at a specified location in an array.
+2. Write a program to print array elements in row and column major order.
+3. Write a program to search an element in an array using Linear Search.
+4. Write programs to search an element in the array using Binary Search.
+5. Write a menu driven program to perform various operations on strings (string length, reverse,
+concatenate, comparison) using user defined programs.
+6. Write a program to implement stack using arrays.
+7. Write a program to implement queue using arrays.
+8. Write a menu driven program for matrices to do the following operation depending on whether the
+operation requires one or two matrices
+ Addition and Subtraction of two matrices
+ Finding upper and lower triangular matrices
+ Trace of a matrix, Transpose of a matrix, Check of matrix symmetry
+9. Write a program to implement Binary search tree.
+10.Write a program to perform insertion & deletion operation on Binary Search trees.
+11.Write a program for implementation of a file and performing operations such as insert, delete
+and update a record in a file.
+12.Write a program to create a linked list & display elements of a linked list.
+13.Create a linked list and perform the following operation on it
+a) Add a node b) Delete a node c) Count no. of nodes
+14.Write a program to implement breadth first search on a graph.
+15.Write a program to implement depth first search on a graph.
+16.Sorting: Bubble sort, Merge sort, Insertion sort, Selection sort, Radix Sort, Quick Sort
