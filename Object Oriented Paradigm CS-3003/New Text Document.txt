@@ -1,0 +1,132 @@
+LIST OF EXPERIMENTS
+1. Raising a number n to a power of p is the same as multiplying n by itself p times. Write a
+function called power( ) that takes a double value for n, int value for p and returns the result as
+double value . Use a default argument of 2 of p, so that if this argument is omitted, the number
+will be squared. Write a main ( ) function that gets values from the user to test this function .
+2. A point on the two dimensional plane can be represented by two numbers: an X coordinate and
+a Y coordinate. For example (4,5) represents point 4 unit to the right of origin along the X axis
+and 5 units up the y-axis . The sum of the two points can be defined as new point whose X and
+Y coordinates.
+Write a program that uses a structure called point to model a point . Define three points and
+have the user input values to two of them. Than set the third point equal to the sum of the other
+two. And display the value of new points. Interaction with the program might look like this.
+Enter Coordinate of P1: 3 4
+Enter Coordinate of P2: 5 7
+Coordinates of P1+P2 are : 8 11
+3. Create the equivalent of four function calculator . The program should request
+the to user to enter a number , an operator and another number . It should carry
+out the specified arithmetical
+operation: adding, subtracting, multiplying ,or dividing the two numbers. (it should use a switch
+statement to select the operation ) finally it should be display the result. When it finishes the
+calculation, the program should ask if the user want to do another calculation. The response
+can be ‘Y’ or ‘N’, Some sample interaction with the program might look like this.
+Enter first number ,operators and second
+number 12+100 Answer =112
+Do another (Y/N)?N
+58
+4. A phone no. such as (212)767-8900 , can be thought of as having three parts area code(212), the
+exchange (767) and the number (8900). Write a program that uses a structure to store these
+three parts of phone both no. separately . Call the structure phone . create two structure Enter
+your area code Exchange and number : 415 555 1212
+My number is (415)555-1212
+5. Create two classes DM and DB which stores the value of distances DM stores distance in meters and
+centimeters and DB in feet and inches . Write a program that can read value for the classes objects
+and add one object of DM with another object DB.
+Use a friend function to carry out the addition operation .The object that stores the result may be a Dm object
+or DB object depending on the units in which result are required .
+The display should be in the format of feet and inches or meters and centimeters depending on the object on
+display.
+6. Create a class rational which represents numerical value by two double value
+NUMERATOR & DENOMENATOR . Include the following public member
+functions:
+· Constructor with no arguments.(defaults)
+· Constructor with two arguments.
+· Void reduce() that reduce the rational number by eliminating the highest common factor
+between the numerator and denominator .
+· Overload +operator to add two rational number
+· Overload operator >> operator to be enabled input through cin
+· Overload <<operator to be enabled input through count.
+Write a main ( ) to test all the functions in the class
+7. Consider the following class definition class father {
+Protected : int age;
+Public:
+Father (int x) {age = x;} Virtual void iam ()
+{
+{cout <<”I AM THE FATHER , my age is “,<<age<<endl;}
+};
+Derive the two classes son and daughter from the above classes and for each define iam() to write our
+similar but appropriate message .You should also define suitable constructors for these classes Now
+write a main ( ) that creates objects of three classes and then call iam( ) them .Declare pointer to
+father , successively assign addresses of object of the two derived classes to this pointer and in each
+case , call iam( ) through the pointer to demonstrate polymorphism in action.
+8. Write a program that create a binary files by reading the data from the students from the terminal.
+The data of each student consist of roll no, name( a string of 30 or lesser no. of character) and marks.
+9. A hospital wants to create a database regarding its indoor patients. The information to store include.
+a) Name of the patient
+b) Date of admission
+c) Disease
+d) Date of discharge
+Create a structure to store the data (year, month, date as its members). Create a base class to store the
+above information. The member function should include function to enter information and display a
+list of all the patients in database Create a drive class to store the age of patients. List the information
+about all to store the age of the patients. List the information about all the pediatric (less then twelve
+years in age)
+59
+10. Makes a class Employee with the name and salary . Makes a class manager inherit from the
+Employee Add an instance variable named :department, type : string. Supply a method to String
+that print the manager’s name, department and salary. Make a class Executive inherit from
+information store in the manager super class object . Supply a test program that test these classes
+and methods.
+11. Imagine a tollbooth with a class called Toll booth . The two data item are a type unsigned into to
+hold the total number of cars and type double to hold the total amount of money collected . A
+constructor initializes both these to 0. A member function called nopaycar( ). Increments the car
+total and adds 0.50 to the cash total. Another function, called nopaycar( ), increment the car total
+but adds nothing to the cash total. Finally , a member function called display the two totals .
+Include a program to test this class . This program should allow the user to push one key to count
+paying a car and another to count a non paying car . Pushing the ESC key should cause the
+program to print out the total cars and total cash and then exit.
+12. Write a function called reverse it ( ) that reverses a string( an array of char ) use a for loop that swap
+the first and last characters, then the second and next to last character and so on .
+the string should be passed to reversesit ( ), and print out the result. Use an input method that
+allows embedded blanks. Test the program with Napoleon’s famous phrase , “Able was I ere I saw
+Elba”.
+13. Create some objects of the string class, and put them in a Deque – some at the head of the Deque
+and some at the tail. Display the contents of the Deque using the for Each( ) function and a user
+written display function . Then search the Deque for a particular strings, using the first That ( )
+Function and display any string that match, finally remove all the item from the date using the get
+left( ) Function and display each item. Not ice is the order in which the item are displayed: Using
+Get Left ( ), Those inserted on the left ( head),of the Deque are removed in “last and first out”
+order while those put on the right side are removed in “first in first out” order. The opposite
+would be true if Get right ( ) were used
+14. Assume that a blank maintain two kinds of accounts for customer. One called as saving accounts
+and another is current account . The saving account provides compound interest and withdrawal
+facility but no cheque book facility, The current account provides cheque book facility but no
+interest Current account holders should also maintain a minimum balance and if the balance false
+below this level , a service charge is imposed.
+Create a class account that store customer name, account number and type of account. From this
+drive the classes cur_acct and sav_account to make them more specific to their requirement. Include
+necessary member function in order to achieve the following task
+a) Accept deposit from a customer and update the balance
+b) Display the balance
+c) Compute and deposit interest
+d) Permit withdrawal and update the balance
+e) Check for the minimum balance, impose penalty ,necessary and update the balance. f) Do not
+use any
+constructor , use member function to initialize the class members
+15. Create a base class called shape .Use this class to store two double type values that could be used to
+compute the area of figure, Derive to specific classes called triangle and rectangle from the base
+shape . Add to the base class, a member function get data ( ) to initialize base class data member
+and another member function display area ( ), To compute and display the area of figures make
+display area ( ) as virtual function and redefine this function in the derived classes to suit the
+requirements.
+60
+Using this three classes design a program that will accept dimension of triangle or rectangle
+interactively and display the area
+Remember the two value given as input will be treated as length of two sides in the case of
+rectangle and as base and height in the case of triangle and used as follows
+Area of rectangle= x * y
+Area of triangle =1/2 * x * y
+Programming of exercise in C++ in the form of project ( based on “object oriented programming in
+TURBO C++”) , Robert lafore , Galgotia Publication Pvt. Ltd.1994 to be done in consultation with
+the faculty incharge for the course
+Note: Record to be maintained both electronically and hard copy of evaluation
