@@ -1,2 +1,6 @@
 *.exe
 *.vscode
+*.idea
+*.vs
+__pycache__
+try.py
